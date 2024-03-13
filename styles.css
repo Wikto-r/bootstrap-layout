@@ -1,0 +1,86 @@
+.btn-photo {
+    background-color: rgb(243, 179, 60);
+    border-color: rgb(243, 179, 60);
+    color: #fff; /* Opcjonalnie, aby tekst był biały */
+    margin-bottom: 20px;
+  }
+
+.btn-photo:hover {
+    background-color: rgb(243, 166, 24);
+}
+
+h4 {
+    margin-top: 40px;
+    font-size: medium;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+div#square1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: blue;
+}
+div#square2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: orange;
+}
+div#square3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: green;
+}
+
+#square1 p {
+font-size: 50px;
+
+  }
+
+  
+#square2 p {
+   font-size: 50px; 
+   
+  }
+
+  
+#square3 p {
+font-size: 50px;
+
+  }
+
+  img#photographer {
+    box-shadow: 50px 50px 25px rgb(236, 217, 197);
+  }
+
+
+  
+
+  div#Packages {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .btn-default {
+    color: black;
+    background-color: transparent;
+    border: none; 
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: color 0.3s ease, font-weight 0.3s ease;
+  }
+  .btn-default:hover {
+    color: blue;
+  }
+  .btn-default:active {
+    color: blue;
+    font-weight: bold;
+  }
